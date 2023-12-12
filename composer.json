@@ -1,0 +1,27 @@
+{
+    "name": "axyr/query-filters",
+    "description": "Laracasts inspired eloquent query string filtering with array support.",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Axyr\\QueryFilters\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Axyr\\QueryFilters\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Martijn van Nieuwenhoven",
+            "email": "info@axyrmedia.nl"
+        }
+    ],
+    "require": {
+        "php": "^8.2"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^8.17"
+    }
+}
